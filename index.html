@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cajero Automatico</title>
+ <script src="script.js"></script>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <h1>Banco de Guardaditos</h1>
+ <p>Seleccione una cuenta:</p>
+ <select id="accountList">
+    <option value="0">Mali</option>
+    <option value="1">Gera</option>
+    <option value="2">Maui</option>
+ </select>
+ <p>Digite la contraseña:</p>
+ <input type="password" id="password" />
+ <button onclick="validarcontraseña()">Entrar</button>
+ <div id="output"></div>
+</body>
+</html>
